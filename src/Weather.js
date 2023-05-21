@@ -18,7 +18,7 @@ export default function Weather(props) {
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
-      iconURL: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
+      iconURL: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
     // setTemperature(response.data.temperature.current);
     // setReady(true);
