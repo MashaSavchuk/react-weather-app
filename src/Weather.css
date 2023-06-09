@@ -32,6 +32,9 @@ li {
   margin-bottom: 5px;
 }
 
+a {
+  text-decoration: none;
+}
 .weather-temperature {
   margin-top: 20px;
 }
